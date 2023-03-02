@@ -1,0 +1,9 @@
+.card-container {
+ width: 21vw;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }

@@ -2,9 +2,12 @@ import './App.css';
 import Main from '../Main/Main';
 
 const App = () => {
-  return(
+  return (
     <div>
-      <Main />
+      <h1>MTG Deck Builder</h1>
+      <div className='main-container'>
+        <Main />
+      </div>
     </div>
   )
 }
