@@ -1,4 +1,4 @@
-import fetchAll from '../apiCalls';
+import fetchAll from '../../apiCalls';
 import './Main.css'
 import React, { useState, useEffect } from 'react';
 import Card from '../Card/Card';
@@ -15,6 +15,7 @@ const Main = () => {
             .then(data => {
                 setCards(data.cards)
             })
+            .catch(error => console.log(error))
     }, [number])
 
     const showCards = () => {
@@ -68,15 +69,15 @@ const Main = () => {
                 <button onClick={jumpTo}>Go</button>
             </form>
             {error && (
-                <p>Please enter a valid page number between 1 and 787.</p>
+                <p>{input} is not a vaild page number. Please enter a valid page number between 1 and 787.</p>
             )}
+            <div>
+                <p>Page Number: {number}</p>
+                <button onClick={prevPage}>Previous Page</button>
+                <button onClick={nextPage}>Next Page</button>
+            </div>
             <div className='cards'>
                 {showCards()}
-                <div>
-                    <p>Page Number: {number}</p>
-                    <button onClick={prevPage}>Previous Page</button>
-                    <button onClick={nextPage}>Next Page</button>
-                </div>
             </div>
         </div>
     );

@@ -1,7 +1,7 @@
 import { useLocation } from "react-router-dom"
 import { useEffect, useState } from "react"
-import { fetchCard } from "../apiCalls"
-import loadingGif from '../Assets/loading-gif.gif'
+import { fetchCard } from "../../apiCalls"
+import loadingGif from '../../Assets/loading-gif.gif'
 
 const Details = () => {
     const location = useLocation()
@@ -15,6 +15,7 @@ const Details = () => {
             setCard(data.card)
             setLoading(false)
         })
+        .catch(error => console.log(error))
     }, [id.id])
     
     if (loading) {
