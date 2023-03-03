@@ -12,7 +12,6 @@ import {
 
 const App = () => {
   return (
-
     <div>
       <Router>
         <Header />

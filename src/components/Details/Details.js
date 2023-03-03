@@ -1,6 +1,7 @@
 import { useLocation } from "react-router-dom"
 import { useEffect, useState } from "react"
 import { fetchCard } from "../../apiCalls"
+import { Link } from "react-router-dom"
 import loadingGif from '../../Assets/loading-gif.gif'
 
 const Details = () => {
@@ -11,20 +12,17 @@ const Details = () => {
 
     useEffect(() => {
         fetchCard(id.id)
-        .then(data => {
-            setCard(data.card)
-            setLoading(false)
-        })
-        .catch(error => console.log(error))
+            .then(data => {
+                setCard(data.card)
+                setLoading(false)
+            })
+            .catch(error => console.log(error))
     }, [id.id])
-    
+
     if (loading) {
         return <img src={loadingGif} ></img>
     }
 
-    const addToDeck = () => {
-        console.log(card.id)
-    }
 
     return (
         <div>
@@ -34,7 +32,11 @@ const Details = () => {
             <p>Converted mana cost: {card.cmc}</p>
             <p>Type: {card.type}</p>
             <p>Details: {card.text}</p>
-            <button onClick={addToDeck}>Add To Deck</button>
+            <Link 
+            to='/deck'
+            state={{name: card.name, imageUrl: card.imageUrl, id: card.id}}>
+                <button>Add To Deck</button>
+            </Link>
         </div>
     )
 }
