@@ -1,5 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
+import Card from "../Card/Card";
 
 const Deck = () => {
   const location = useLocation()
@@ -13,11 +14,16 @@ const Deck = () => {
   const showDeck = () => {
     return deck.map((card) => (
       <div key={card.id}>
-        <img src={card.imageUrl} alt={card.name} />
+        <Card 
+        img={card.imageUrl}
+        id={card.id}
+        name={card.name}
+        />
         <button onClick={() => removeFromDeck(card.id)}>Remove from Deck</button>
       </div>
-    ));
-  };
+    ))
+  }
+
 
   const removeFromDeck = (id) => {
     setDeck(deck.filter((card) => card.id !== id))

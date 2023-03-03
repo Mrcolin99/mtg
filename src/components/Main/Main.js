@@ -9,13 +9,17 @@ const Main = () => {
     const [number, setNumber] = useState(1)
     const [input, setInput] = useState('')
     const [error, setError] = useState(false)
+    const [loadError, setLoadError] = useState(false)
 
     useEffect(() => {
         fetchAll(number)
             .then(data => {
                 setCards(data.cards)
             })
-            .catch(error => console.log(error))
+            .catch(error => {
+                console.log(error)
+                setLoadError(true)
+            })
     }, [number])
 
     const showCards = () => {
@@ -77,7 +81,8 @@ const Main = () => {
                 <button onClick={nextPage}>Next Page</button>
             </div>
             <div className='cards'>
-                {showCards()}
+                {!loadError ? showCards() :
+                    <h1>Error Loading Cards Please Try Again Later...</h1>}
             </div>
         </div>
     );
