@@ -22,6 +22,10 @@ const Details = () => {
         return <img src={loadingGif} ></img>
     }
 
+    const addToDeck = () => {
+        console.log(card.id)
+    }
+
     return (
         <div>
             <img src={card.imageUrl} alt={card.name}></img>
@@ -30,6 +34,7 @@ const Details = () => {
             <p>Converted mana cost: {card.cmc}</p>
             <p>Type: {card.type}</p>
             <p>Details: {card.text}</p>
+            <button onClick={addToDeck}>Add To Deck</button>
         </div>
     )
 }
