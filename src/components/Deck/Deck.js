@@ -4,10 +4,10 @@ const Deck = ({ removeFromDeck, deck }) => {
 
     const showDeck = () => {
         return deck.map((card) => (
-            <div key={card.id}>
+            <div key={`${card.id}`}>
                 <Card
                     img={card.imageUrl}
-                    id={card.id}
+                    id={`${card.id}`}
                     name={card.name}
                 />
                 <br></br>
