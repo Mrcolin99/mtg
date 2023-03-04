@@ -1,0 +1,968 @@
+{
+    "cards": [
+        {
+            "name": "Familiar Ground",
+            "manaCost": "{2}{G}",
+            "cmc": 3.0,
+            "colors": [
+                "G"
+            ],
+            "colorIdentity": [
+                "G"
+            ],
+            "type": "Enchantment",
+            "types": [
+                "Enchantment"
+            ],
+            "rarity": "Uncommon",
+            "set": "6ED",
+            "setName": "Classic Sixth Edition",
+            "text": "Each creature you control can't be blocked by more than one creature.",
+            "flavor": "\"I'd rather fight on foreign soil. That way, if I lose I can blame it on the terrain.\"\n—Gerrard of the *Weatherlight*",
+            "artist": "Jeff Miracola",
+            "number": "228",
+            "layout": "normal",
+            "multiverseid": "14691",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=14691&type=card",
+            "rulings": [
+                {
+                    "date": "2004-10-04",
+                    "text": "When combined with an effect that reads “Each creature you control can’t be blocked except by two or more creatures,” none of your creatures can be blocked."
+                }
+            ],
+            "foreignNames": [
+                {
+                    "name": "Gewohntes Gelände",
+                    "text": "Alle Kreaturen, die Du kontrollierst, können im Kampf nicht von mehr als einer Kreatur geblockt werden.",
+                    "type": "Verzauberung",
+                    "flavor": null,
+                    "language": "German",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Terreno conocido",
+                    "flavor": null,
+                    "language": "Spanish",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Terrain familier",
+                    "flavor": null,
+                    "language": "French",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Terreno Familiare",
+                    "flavor": null,
+                    "language": "Italian",
+                    "multiverseid": null
+                },
+                {
+                    "name": "地元の利",
+                    "flavor": null,
+                    "language": "Japanese",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Solo Familiar",
+                    "flavor": null,
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": null
+                }
+            ],
+            "printings": [
+                "6ED",
+                "7ED",
+                "WTH"
+            ],
+            "originalText": "Each creature you control can't be blocked by more than one creature each combat.",
+            "originalType": "Enchantment",
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Duel",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Predh",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Premodern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "73337c44-0367-565d-be8b-4f3841e07756"
+        },
+        {
+            "name": "Femeref Archers",
+            "manaCost": "{2}{G}",
+            "cmc": 3.0,
+            "colors": [
+                "G"
+            ],
+            "colorIdentity": [
+                "G"
+            ],
+            "type": "Creature — Human Archer",
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Human",
+                "Archer"
+            ],
+            "rarity": "Uncommon",
+            "set": "6ED",
+            "setName": "Classic Sixth Edition",
+            "text": "{T}: Femeref Archers deals 4 damage to target attacking creature with flying.",
+            "flavor": "\"They say a Zhalfirin archer can split the eye of a griffin. Nonsense, of course; they have no faith to guide their darts.\"\n—Nuru, Femeref archer",
+            "artist": "William Donohoe",
+            "number": "229",
+            "power": "2",
+            "toughness": "2",
+            "layout": "normal",
+            "multiverseid": "14698",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=14698&type=card",
+            "foreignNames": [
+                {
+                    "name": "Bogenschützen der Femeref",
+                    "text": "{T}: Der Bogenschütze der Femeref fügt einer angreifenden fliegenden Kreatur Deiner Wahl 4 Schadenspunkte zu.",
+                    "type": "Kreatur — Bogenschütze",
+                    "flavor": null,
+                    "language": "German",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Arqueros de Femeref",
+                    "flavor": null,
+                    "language": "Spanish",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Archers fémeirefs",
+                    "flavor": null,
+                    "language": "French",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Arcieri di Femeref",
+                    "flavor": null,
+                    "language": "Italian",
+                    "multiverseid": null
+                },
+                {
+                    "name": "フェメレフの射手",
+                    "flavor": null,
+                    "language": "Japanese",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Arqueiros de Femeref",
+                    "flavor": null,
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": null
+                }
+            ],
+            "printings": [
+                "10E",
+                "6ED",
+                "7ED",
+                "MIR"
+            ],
+            "originalText": "oc\nT: Femeref Archers deals 4 damage to target attacking creature with flying.",
+            "originalType": "Creature - Soldier",
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Duel",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Modern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Paupercommander",
+                    "legality": "Restricted"
+                },
+                {
+                    "format": "Penny",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Predh",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Premodern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "9e084e17-1aa9-5364-a90f-8695e563616d"
+        },
+        {
+            "name": "Fog",
+            "manaCost": "{G}",
+            "cmc": 1.0,
+            "colors": [
+                "G"
+            ],
+            "colorIdentity": [
+                "G"
+            ],
+            "type": "Instant",
+            "types": [
+                "Instant"
+            ],
+            "rarity": "Common",
+            "set": "6ED",
+            "setName": "Classic Sixth Edition",
+            "text": "Prevent all combat damage that would be dealt this turn.",
+            "artist": "Harold McNeill",
+            "number": "230",
+            "layout": "normal",
+            "multiverseid": "14682",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=14682&type=card",
+            "foreignNames": [
+                {
+                    "name": "Nebel",
+                    "text": "Kreaturen fügen in diesem Zug keinen Kampfschaden zu.",
+                    "type": "Spontanzauber",
+                    "flavor": null,
+                    "language": "German",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Niebla",
+                    "flavor": null,
+                    "language": "Spanish",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Brouillard",
+                    "flavor": null,
+                    "language": "French",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Nebbia",
+                    "flavor": null,
+                    "language": "Italian",
+                    "multiverseid": null
+                },
+                {
+                    "name": "濃霧",
+                    "flavor": null,
+                    "language": "Japanese",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Neblina",
+                    "flavor": null,
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": null
+                }
+            ],
+            "printings": [
+                "2ED",
+                "30A",
+                "3ED",
+                "4BB",
+                "4ED",
+                "5ED",
+                "6ED",
+                "7ED",
+                "ARC",
+                "BTD",
+                "CED",
+                "CEI",
+                "EMA",
+                "FBB",
+                "J21",
+                "LEA",
+                "LEB",
+                "M10",
+                "M11",
+                "M12",
+                "M13",
+                "M14",
+                "MB1",
+                "ME4",
+                "MIR",
+                "SUM"
+            ],
+            "originalText": "Creatures deal no combat damage this turn.",
+            "originalType": "Instant",
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Duel",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Modern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Pauper",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Paupercommander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Penny",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Pioneer",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Predh",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Premodern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "4ba798c6-c5a9-50ab-903c-af0348c80f28"
+        },
+        {
+            "name": "Fyndhorn Brownie",
+            "manaCost": "{2}{G}",
+            "cmc": 3.0,
+            "colors": [
+                "G"
+            ],
+            "colorIdentity": [
+                "G"
+            ],
+            "type": "Creature — Ouphe",
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Ouphe"
+            ],
+            "rarity": "Common",
+            "set": "6ED",
+            "setName": "Classic Sixth Edition",
+            "text": "{2}{G}, {T}: Untap target creature.",
+            "flavor": "\"I've been insulted by drunks in a hundred inns, but never as skillfully or annoyingly as by those blasted brownies.\"\n—General Jarkeld, the Arctic Fox",
+            "artist": "Richard Thomas",
+            "number": "231",
+            "power": "1",
+            "toughness": "1",
+            "layout": "normal",
+            "multiverseid": "16451",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=16451&type=card",
+            "foreignNames": [
+                {
+                    "name": "Fyndhornwirsch",
+                    "text": "{2}{G},{T}:Enttappe eine Kreatur deiner Wahl",
+                    "type": "Kreatur — Wirsch",
+                    "flavor": null,
+                    "language": "German",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Duendecillo de Fyndhorn",
+                    "flavor": null,
+                    "language": "Spanish",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Lutin cordellien",
+                    "flavor": null,
+                    "language": "French",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Folletto di Fyndhorn",
+                    "flavor": null,
+                    "language": "Italian",
+                    "multiverseid": null
+                },
+                {
+                    "name": "フィンドホーンのブラウニー",
+                    "flavor": null,
+                    "language": "Japanese",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Duende de Fyndhorn",
+                    "flavor": null,
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": null
+                }
+            ],
+            "printings": [
+                "6ED",
+                "ICE"
+            ],
+            "originalText": "o2o\nG, oc\nT: Untap target creature.",
+            "originalType": "Creature - Brownie",
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Duel",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Pauper",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Paupercommander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Predh",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Premodern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "9923c7da-1cb9-590f-ae8f-807c193578f5"
+        },
+        {
+            "name": "Fyndhorn Elder",
+            "manaCost": "{2}{G}",
+            "cmc": 3.0,
+            "colors": [
+                "G"
+            ],
+            "colorIdentity": [
+                "G"
+            ],
+            "type": "Creature — Elf Druid",
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Elf",
+                "Druid"
+            ],
+            "rarity": "Uncommon",
+            "set": "6ED",
+            "setName": "Classic Sixth Edition",
+            "text": "{T}: Add {G}{G}.",
+            "flavor": "\"Do we know what we're doing? Yes—the will of Freyalise.\"\n—Laina of the Elvish Council",
+            "artist": "Donato Giancola",
+            "number": "232",
+            "power": "1",
+            "toughness": "1",
+            "layout": "normal",
+            "multiverseid": "14699",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=14699&type=card",
+            "foreignNames": [
+                {
+                    "name": "Weiser aus dem Fyndhorn",
+                    "text": "{T}: Erhöhe Deinen Manavorrat um GG.",
+                    "type": "Kreatur — Elf",
+                    "flavor": null,
+                    "language": "German",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Anciano de Fyndhorn",
+                    "flavor": null,
+                    "language": "Spanish",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Ancêtre Cordellien",
+                    "flavor": null,
+                    "language": "French",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Antico di Fyndhorn",
+                    "flavor": null,
+                    "language": "Italian",
+                    "multiverseid": null
+                },
+                {
+                    "name": "フィンドホーンの古老",
+                    "flavor": null,
+                    "language": "Japanese",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Ancião de Fyndhorn",
+                    "flavor": null,
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": null
+                }
+            ],
+            "printings": [
+                "5ED",
+                "6ED",
+                "7ED",
+                "8ED",
+                "ICE"
+            ],
+            "originalText": "oc\nT: Add o\nGo\nG to your mana pool.",
+            "originalType": "Creature - Elf",
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Duel",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Modern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Paupercommander",
+                    "legality": "Restricted"
+                },
+                {
+                    "format": "Penny",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Predh",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Premodern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "7b75b7bb-68ca-50a7-b237-bca7cc995bf6"
+        },
+        {
+            "name": "Giant Growth",
+            "manaCost": "{G}",
+            "cmc": 1.0,
+            "colors": [
+                "G"
+            ],
+            "colorIdentity": [
+                "G"
+            ],
+            "type": "Instant",
+            "types": [
+                "Instant"
+            ],
+            "rarity": "Common",
+            "set": "6ED",
+            "setName": "Classic Sixth Edition",
+            "text": "Target creature gets +3/+3 until end of turn.",
+            "artist": "DiTerlizzi",
+            "number": "233",
+            "layout": "normal",
+            "multiverseid": "14683",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=14683&type=card",
+            "foreignNames": [
+                {
+                    "name": "Riesenwuchs",
+                    "text": "Eine Kreatur deiner Wahl erhält +3/+3 bis zum Ende des Zuges.",
+                    "type": "Spontanzauber",
+                    "flavor": null,
+                    "language": "German",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Crecimiento gigante",
+                    "flavor": null,
+                    "language": "Spanish",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Croissance gigantesque",
+                    "flavor": null,
+                    "language": "French",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Crescita Gigante",
+                    "flavor": null,
+                    "language": "Italian",
+                    "multiverseid": null
+                },
+                {
+                    "name": "巨大化",
+                    "flavor": null,
+                    "language": "Japanese",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Crescimento Desenfreado",
+                    "flavor": null,
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": null
+                }
+            ],
+            "printings": [
+                "10E",
+                "2ED",
+                "30A",
+                "3ED",
+                "4BB",
+                "4ED",
+                "5ED",
+                "6ED",
+                "7ED",
+                "8ED",
+                "9ED",
+                "A25",
+                "ATH",
+                "BBD",
+                "BRB",
+                "BRO",
+                "BTD",
+                "CED",
+                "CEI",
+                "DD1",
+                "DDD",
+                "DKM",
+                "DPA",
+                "E02",
+                "EVG",
+                "FBB",
+                "FNM",
+                "GVL",
+                "ICE",
+                "J21",
+                "LEA",
+                "LEB",
+                "M10",
+                "M11",
+                "M14",
+                "MB1",
+                "ME2",
+                "ME3",
+                "ME4",
+                "P06",
+                "PJJT",
+                "PRM",
+                "PS11",
+                "PSUS",
+                "RTR",
+                "SUM",
+                "WAR",
+                "WC97",
+                "WC99"
+            ],
+            "originalText": "Target creature gets +3/+3 until end of turn.",
+            "originalType": "Instant",
+            "legalities": [
+                {
+                    "format": "Alchemy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Brawl",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Duel",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Explorer",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Future",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Gladiator",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Historic",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Historicbrawl",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Modern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Pauper",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Paupercommander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Penny",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Pioneer",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Predh",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Premodern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Standard",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "16016d7f-1ad3-50f4-9e3c-32e31c427906"
+        },
+        {
+            "name": "Giant Spider",
+            "manaCost": "{3}{G}",
+            "cmc": 4.0,
+            "colors": [
+                "G"
+            ],
+            "colorIdentity": [
+                "G"
+            ],
+            "type": "Creature — Spider",
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Spider"
+            ],
+            "rarity": "Common",
+            "set": "6ED",
+            "setName": "Classic Sixth Edition",
+            "text": "Reach (This creature can block creatures with flying.)",
+            "flavor": "It's not far into the trap, as the crow flies.",
+            "artist": "Randy Gallegos",
+            "number": "234",
+            "power": "2",
+            "toughness": "4",
+            "layout": "normal",
+            "multiverseid": "14676",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=14676&type=card",
+            "rulings": [
+                {
+                    "date": "2008-04-01",
+                    "text": "This card now uses the Reach keyword ability to enable the blocking of flying creatures. This works because a creature with flying can only be blocked by creatures with flying or reach."
+                }
+            ],
+            "foreignNames": [
+                {
+                    "name": "Riesenspinne",
+                    "text": "Die Riesenspinne kann blocken,als ob sie Flugfähigkeit hätte.",
+                    "type": "Kreatur — Spinne",
+                    "flavor": null,
+                    "language": "German",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Araña gigante",
+                    "flavor": null,
+                    "language": "Spanish",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Araignée géante",
+                    "flavor": null,
+                    "language": "French",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Ragno Gigante",
+                    "flavor": null,
+                    "language": "Italian",
+                    "multiverseid": null
+                },
+                {
+                    "name": "大蜘蛛",
+                    "flavor": null,
+                    "language": "Japanese",
+                    "multiverseid": null
+                },
+                {
+                    "name": "Aranha Gigante",
+                    "flavor": null,
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": null
+                }
+            ],
+            "printings": [
+                "10E",
+                "2ED",
+                "30A",
+                "3ED",
+                "4BB",
+                "4ED",
+                "5ED",
+                "6ED",
+                "7ED",
+                "8ED",
+                "9ED",
+                "AKH",
+                "ATH",
+                "CED",
+                "CEI",
+                "DMR",
+                "DPA",
+                "FBB",
+                "GS1",
+                "LEA",
+                "LEB",
+                "M10",
+                "M11",
+                "M12",
+                "M14",
+                "M19",
+                "MB1",
+                "POR",
+                "PS11",
+                "PZ2",
+                "SUM"
+            ],
+            "originalText": "Giant Spider can block as though it had flying.",
+            "originalType": "Creature - Spider",
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Duel",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Explorer",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Gladiator",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Historic",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Historicbrawl",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Modern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Pauper",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Paupercommander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Penny",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Pioneer",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Predh",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Premodern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "c32d15c9-b980-556a-9771-2a087142153f"
+        }
+    ]
+}
