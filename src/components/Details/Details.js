@@ -2,6 +2,7 @@ import { useLocation } from "react-router-dom"
 import { useEffect, useState } from "react"
 import { fetchCard } from "../../apiCalls"
 import loadingGif from '../../Assets/loading-gif.gif'
+import noImage from '../../Assets/no-image.gif'
 
 const Details = ({ addToDeck }) => {
     const location = useLocation()
@@ -28,14 +29,16 @@ const Details = ({ addToDeck }) => {
     }
 
     const handleAddToDeck = () => {
-        addToDeck(card)
-    }
+        const randomId = `${card.id}-${Math.random()}`
+        addToDeck({ ...card, id: randomId })
+      }
+      
 
     return (
         <div>
-            {!loadError ?
+            {!loadError && card !== undefined ?
                 <div>
-                    <img src={card.imageUrl} alt={card.name}></img>
+                    <img src={card.imageUrl || noImage} alt={card.name}></img>
                     <h3>{card.name}</h3>
                     <p>Mana cost: {card.manaCost}</p>
                     <p>Converted mana cost: {card.cmc}</p>
@@ -43,7 +46,7 @@ const Details = ({ addToDeck }) => {
                     <p>Details: {card.text}</p>
                     <button onClick={handleAddToDeck}>Add To Deck</button>
                 </div>
-                : <h1>There was an error loding this card</h1>}
+                : <h1>There was an error loading this card</h1>}
         </div>
     )
 }

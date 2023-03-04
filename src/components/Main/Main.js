@@ -23,17 +23,20 @@ const Main = () => {
     }, [number, loadError])
 
     const showCards = () => {
-        return cards.map(card => {
-            return (
-                <div className='card-container' key={card.number}>
-                    <Card
-                        img={card.imageUrl}
-                        id={card.id}
-                        name={card.name}
-                    />
-                </div>
-            )
-        })
+        if (cards !== undefined) {
+            return cards.map(card => {
+                return (
+                    <div className='card-container' key={card.number}>
+                        <Card
+                            img={card.imageUrl}
+                            id={card.id}
+                            name={card.name}
+                        />
+                    </div>
+                )
+
+            })
+        } else {return <p>There was an error loading the cards, please click next page...</p>}
     }
 
     const nextPage = () => {
