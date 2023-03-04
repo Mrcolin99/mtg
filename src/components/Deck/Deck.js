@@ -1,14 +1,12 @@
-import Card from "../Card/Card";
-
 const Deck = ({ removeFromDeck, deck }) => {
 
     const showDeck = () => {
         return deck.map((card) => (
-            <div key={`${card.id}`}>
-                <Card
-                    img={card.imageUrl}
-                    id={`${card.id}`}
-                    name={card.name}
+            <div key={card.id}>
+                <img
+                    src={card.imageUrl}
+                    id={card.id}
+                    alt={card.name}
                 />
                 <br></br>
                 <button onClick={() => removeFromDeck(card.id)}>Remove from Deck</button>
