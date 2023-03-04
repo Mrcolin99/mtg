@@ -12,8 +12,9 @@ const Card = ({ img, id, name }) => {
                 <Link to={`/details/${id}`} state={{ id: id}}>
                     <p>Click For More</p>
                 </Link>
-            </div>
+            </div> 
     );
+       
 };
 
 export default Card;

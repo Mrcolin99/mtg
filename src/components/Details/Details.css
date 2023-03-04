@@ -1,0 +1,17 @@
+.add-button {
+    background-color: #A22C29;
+    color: #D6D5C9;
+    border: 3px solid #A22C29;
+    border-radius: 7px;
+}
+
+.loading {
+    margin-top: 20vh;
+    margin-left: 37vw;
+    width: 25vw;
+}
+
+.card-div {
+    margin-left: 3vw;
+    margin-right: 3vw;
+}

@@ -7,3 +7,41 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
+
+.input-bar {
+  width: 30px;
+  background-color: #0A100D;
+  border: #B9BAA3 1px solid;
+  border-radius: 5px;
+  color:#D6D5C9;
+  margin-right: 1vw;
+}
+
+.submit {
+  background-color: #A22C29;
+  color: #D6D5C9;
+  border: 3px solid #A22C29;
+  border-radius: 7px;
+}
+
+.next {
+  background-color: #A22C29;
+  color: #D6D5C9;
+  border: 3px solid #A22C29;
+  border-radius: 7px;
+}
+
+.prev {
+  background-color: #A22C29;
+  color: #D6D5C9;
+  border: 3px solid #A22C29;
+  border-radius: 7px;
+}
+
+.page-cntrl {
+  margin-left: 2vw
+}
+
+.page-form {
+  margin-left: 2vw;
+}

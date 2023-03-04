@@ -1,0 +1,17 @@
+.deck-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-container {
+    width: 21vw;
+    margin-left: 1vw;
+   }
+
+.remove-button {
+    background-color: #A22C29;
+    color: #D6D5C9;
+    border: 3px solid #A22C29;
+    border-radius: 7px;
+}

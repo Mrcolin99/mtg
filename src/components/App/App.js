@@ -22,7 +22,7 @@ const App = () => {
     setDeck(deck.filter((card) => card.id !== id));
   }
   return (
-    <div>
+    <div className='main-div'>
       <Router>
         <Header />
         <Routes>
