@@ -1,7 +1,8 @@
+import './Details.css'
 import { useLocation } from "react-router-dom"
 import { useEffect, useState } from "react"
 import { fetchCard } from "../../apiCalls"
-import loadingGif from '../../Assets/loading-gif.gif'
+import loadingGif from '../../Assets/loading-gif2.gif'
 import noImage from '../../Assets/no-image.gif'
 
 const Details = ({ addToDeck }) => {
@@ -25,7 +26,7 @@ const Details = ({ addToDeck }) => {
     }, [id.id])
 
     if (loading) {
-        return <img src={loadingGif} ></img>
+        return <img className='loading' src={loadingGif} ></img>
     }
 
     const handleAddToDeck = () => {
@@ -37,16 +38,16 @@ const Details = ({ addToDeck }) => {
     return (
         <div>
             {!loadError && card !== undefined ?
-                <div>
+                <div className='card-div'>
                     <img src={card.imageUrl || noImage} alt={card.name}></img>
                     <h3>{card.name}</h3>
                     <p>Mana cost: {card.manaCost}</p>
                     <p>Converted mana cost: {card.cmc}</p>
                     <p>Type: {card.type}</p>
                     <p>Details: {card.text}</p>
-                    <button onClick={handleAddToDeck}>Add To Deck</button>
+                    <button className='add-button' onClick={handleAddToDeck}>Add To Deck</button>
                 </div>
-                : <h1>There was an error loading this card</h1>}
+                : <h3>There was an error loading this card please return to the home page</h3>}
         </div>
     )
 }

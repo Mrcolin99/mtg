@@ -70,18 +70,18 @@ const Main = () => {
 
     return (
         <div>
-            <form>
+            <form className='page-form'>
                 <label htmlFor='page'>Jump to Page: </label>
-                <input id='page' name='page' onChange={holdInput} value={input} />
-                <button onClick={jumpTo}>Go</button>
+                <input className='input-bar' id='page' name='page' onChange={holdInput} value={input} />
+                <button className='submit' onClick={jumpTo}>Go</button>
             </form>
             {error && (
                 <p>{input} is not a vaild page number. Please enter a valid page number between 1 and 787.</p>
             )}
-            <div>
+            <div className='page-cntrl'>
                 <p>Page Number: {number}</p>
-                <button onClick={prevPage}>Previous Page</button>
-                <button onClick={nextPage}>Next Page</button>
+                <button className='prev' onClick={prevPage}>Previous Page</button>
+                <button className='next' onClick={nextPage}>Next Page</button>
             </div>
             <div className='cards'>
                 {!loadError ? showCards() :
