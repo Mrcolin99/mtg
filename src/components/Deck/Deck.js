@@ -10,6 +10,7 @@ const Deck = ({ removeFromDeck, deck }) => {
                 />
                 <br></br>
                 <button onClick={() => removeFromDeck(card.id)}>Remove from Deck</button>
+                <br></br>
             </div>
         ))
     }
