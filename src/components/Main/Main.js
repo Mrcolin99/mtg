@@ -20,7 +20,7 @@ const Main = () => {
                 console.log(error)
                 setLoadError(true)
             })
-    }, [number])
+    }, [number, loadError])
 
     const showCards = () => {
         return cards.map(card => {
@@ -89,4 +89,3 @@ const Main = () => {
 }
 
 export default Main;
-
