@@ -1,12 +1,13 @@
 .card-container {
-  width: 21vw;
+  width: 223px;
+  height: 310px;
   margin-bottom: 3px;
 }
 
 .card-container :hover {
   border: #A22C29 solid 2px;
-  border-radius: 6px;
-  width: 21vw;
+  /* width: 223px;
+  height: 310px; */
   margin-bottom: 3px;
 }
 
