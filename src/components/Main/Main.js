@@ -7,12 +7,13 @@ import Card from '../Card/Card'
 const Main = () => {
     const [cards, setCards] = useState([])
     const [number, setNumber] = useState(1)
+    const [type, setType] = useState('')
     const [input, setInput] = useState('')
     const [error, setError] = useState(false)
     const [loadError, setLoadError] = useState(false)
 
     useEffect(() => {
-        fetchAll(number)
+        fetchAll(number, type)
             .then(data => {
                 setCards(data.cards)
             })
@@ -20,7 +21,7 @@ const Main = () => {
                 console.log(error)
                 setLoadError(true)
             })
-    }, [number, loadError])
+    }, [number, type, loadError])
 
     const showCards = () => {
         if (cards !== undefined) {
@@ -69,6 +70,11 @@ const Main = () => {
         }
     }
 
+    const handleTypeChange = (event) => {
+        setType(event.target.value)
+        setLoadError(false)
+      }
+
     return (
         <div>
             <form className='page-form'>
@@ -76,6 +82,33 @@ const Main = () => {
                 <input className='input-bar' id='page' name='page' onChange={holdInput} value={input} />
                 <button className='submit' onClick={jumpTo}>Go</button>
             </form>
+            <select className='type' name='type' id='type' onChange={handleTypeChange}>
+                <option value=''>All</option>
+                <option value='Artifact'>Artifact</option>
+                <option value='Conspiracy'>Conspiracy</option>
+                <option value='Creature'>Creature</option>
+                <option value='Dragon'>Dragon</option>
+                <option value='Elemental'>Elemental</option>
+                <option value='Enchantment'>Enchantment</option>
+                <option value='Goblin'>Goblin</option>
+                <option value='Hero'>Hero</option>
+                <option value='instant'>instant</option>
+                <option value='Instant'>Instant</option>
+                <option value='Jaguar'>Jaguar</option>
+                <option value='Knights'>Knights</option>
+                <option value='Land'>Land</option>
+                <option value='Phenomenon'>Phenomenon</option>
+                <option value='Plane'>Plane</option>
+                <option value='Planeswalker'>Planeswalker</option>
+                <option value='Scheme'>Scheme</option>
+                <option value='Sorcery'>Sorcery</option>
+                <option value='Stickers'>Stickers</option>
+                <option value='Summon'>Summon</option>
+                <option value='Tribal'>Tribal</option>
+                <option value='Universewalker'>Universewalker</option>
+                <option value='Vanguard'>Vanguard</option>
+                <option value='Wolf'>Wolf</option>
+            </select>
             {error && (
                 <p>{input || 'Nothing'} is not a vaild page number. Please enter a valid page number between 1 and 787.</p>
             )}
@@ -84,6 +117,7 @@ const Main = () => {
                 <button className='prev' onClick={prevPage}>Previous Page</button>
                 <button className='next' onClick={nextPage}>Next Page</button>
             </div>
+            <br></br>
             <div className='cards'>
                 {!loadError ? showCards() :
                     <h1>Error Loading Cards Please Refresh The Page...</h1>}
@@ -92,4 +126,4 @@ const Main = () => {
     );
 }
 
-export default Main;
+export default Main
