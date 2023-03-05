@@ -1,9 +1,9 @@
-import './App.css';
-import Main from '../Main/Main';
-import Details from '../Details/Details';
-import Header from '../Header/Header';
-import Deck from '../Deck/Deck';
-import { useState } from 'react';
+import './App.css'
+import Main from '../Main/Main'
+import Details from '../Details/Details'
+import Header from '../Header/Header'
+import Deck from '../Deck/Deck'
+import { useState } from 'react'
 import {
   BrowserRouter as Router,
   Routes,

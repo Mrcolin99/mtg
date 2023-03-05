@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 
 const Card = ({ img, id, name }) => {
     return (
@@ -17,4 +17,4 @@ const Card = ({ img, id, name }) => {
        
 };
 
-export default Card;
+export default Card
