@@ -86,7 +86,7 @@ const Main = () => {
             </div>
             <div className='cards'>
                 {!loadError ? showCards() :
-                    <h1>Error Loading Cards Please Try Again Later...</h1>}
+                    <h1>Error Loading Cards Please Refresh The Page...</h1>}
             </div>
         </div>
     );
