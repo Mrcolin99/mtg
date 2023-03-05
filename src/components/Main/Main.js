@@ -54,6 +54,7 @@ const Main = () => {
     }
 
     const holdInput = (event) => {
+        setError(false)
         setInput(event.target.value)
     }
 
