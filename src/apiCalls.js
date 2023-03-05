@@ -1,5 +1,5 @@
-export const fetchAll = (number) => {
-    return fetch(`https://api.magicthegathering.io/v1/cards?page=${number}`)
+export const fetchAll = (number, type) => {
+    return fetch(`https://api.magicthegathering.io/v1/cards?page=${number}&type=${type}`)
         .then(response => response.json())
 }
 
