@@ -1,8 +1,8 @@
 # MTG Deck Builder
-## Abstract:
-This application allows users to browse through magic the gathering cards and add them to a deck.
+## Description:
+This application allows users to browse through magic the gathering cards and add them to a deck. 
 
-Link to [deployed app]()
+Link to [deployed app](https://mtg-mu.vercel.app/)
 
 ## Installation Instructions:
 1. Go to [this repo](https://github.com/Mrcolin99/mtg) on Github
@@ -21,7 +21,7 @@ Link to [deployed app]()
 ## Contributors:
 - [Colin Ciervo](https://github.com/Mrcolin99)
 
-## Tech Used:
+## Technology Used:
 - React
 - Cypress
 - Router
