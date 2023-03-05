@@ -32,8 +32,6 @@ Link to [deployed app](https://mtg-mu.vercel.app/)
 - JavaScript
 - CSS
 - HTML
-- Slack
-- Google Font API
 
 ## Wins and Challenges
 Wins
