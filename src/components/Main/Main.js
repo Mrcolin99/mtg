@@ -49,7 +49,7 @@ const Main = () => {
 
     const prevPage = () => {
         if (number > 1) {
-            setNumber(number - 1);
+            setNumber(number - 1)
             setError(false)
         }
     }
@@ -123,7 +123,7 @@ const Main = () => {
                     <h1>Error Loading Cards Please Refresh The Page...</h1>}
             </div>
         </div>
-    );
+    )
 }
 
 export default Main
