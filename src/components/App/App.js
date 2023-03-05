@@ -25,11 +25,11 @@ const App = () => {
     <div className='main-div'>
       <Router>
         <Header />
-        <Routes>
-          <Route path='/' element={<Main />} />
-          <Route path='/details/:id' element={<Details addToDeck={addToDeck}/>} />
-          <Route path='/deck' element={<Deck removeFromDeck={removeFromDeck} deck={deck}/>} />
-        </Routes>
+          <Routes>
+            <Route path='/' element={<Main />} />
+            <Route path='/details/:id' element={<Details addToDeck={addToDeck} />} />
+            <Route path='/deck' element={<Deck removeFromDeck={removeFromDeck} deck={deck} />} />
+          </Routes>
       </Router>
     </div>
   )
