@@ -14,8 +14,8 @@ const Card = ({ img, id, name }) => {
                     <p className='no-img-link'>Click For More</p>
                 </Link>
             </div>
-    );
+  )
 
-};
+}
 
 export default Card
