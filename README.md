@@ -1,71 +1,44 @@
-# Getting Started with Create React App
+# MTG Deck Builder
+## Description:
+This application allows users to browse through magic the gathering cards and add them to a deck. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Link to [deployed app](https://mtg-mu.vercel.app/)
 
-## Available Scripts
+## Installation Instructions:
+1. Go to [this repo](https://github.com/Mrcolin99/mtg) on Github
+2. Click Fork > Create New Fork
+3. Click Code
+4. Copy the SSH url provided by GitHub
+5. In the terminal, navigate to the new project repository
+6. Type git clone and paste the URL
+7. Run `cd mtg`
+8. Run `npm install`. Note: Do not run `npm audit fix --force`. This will update to the latest version of packages, which are not wanted. 
+9. Run `npm start` to start the program. (`Ctrl + C` will stop it.)
+10. In a browser window, navigate to `http://localhost:3000/`.
+11. The app should now be running.  
 
-In the project directory, you can run:
 
-### `npm start`
+## Contributors:
+- [Colin Ciervo](https://github.com/Mrcolin99)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technology Used:
+- React
+- Cypress
+- Router
+- GitHub
+- Terminal
+- VS Code
+- Chrome Browser/Dev tools + React dev tools
+- JavaScript
+- CSS
+- HTML
+- Slack
+- Google Font API
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Wins and Challenges
+Wins
+- Successfully dealing with a massive amount of error handling to deal with API issues as well as making it harder for users to break the app.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# mtg
+Challenges
+- The API was very challenging to work with, between its extremely long response times and constant 500 errors it made this application very difficult to build
