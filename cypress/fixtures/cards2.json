@@ -1,0 +1,939 @@
+{
+    "cards": [
+        {
+            "name": "Aven Windreader",
+            "manaCost": "{3}{U}{U}",
+            "cmc": 5.0,
+            "colors": [
+                "U"
+            ],
+            "colorIdentity": [
+                "U"
+            ],
+            "type": "Creature — Bird Soldier Wizard",
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Bird",
+                "Soldier",
+                "Wizard"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\n{1}{U}: Target player reveals the top card of their library.",
+            "flavor": "\"The tiniest ripple tells a story ten fathoms deep.\"",
+            "artist": "Greg Hildebrandt",
+            "number": "69",
+            "power": "3",
+            "toughness": "3",
+            "layout": "normal",
+            "multiverseid": "129473",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129473&type=card",
+            "variations": [
+                "e11ae348-44d1-5d45-bc5c-99a44d2acd5c"
+            ],
+            "foreignNames": [
+                {
+                    "name": "Avior-Lüfteleser",
+                    "text": "Fliegend (Diese Kreatur kann außer von fliegenden Kreaturen und Kreaturen mit Reichweite nicht geblockt werden.)\n{1}{U}: Ein Spieler deiner Wahl zeigt die oberste Karte seiner Bibliothek offen vor.",
+                    "type": "Kreatur — Vogel, Soldat, Zauberer",
+                    "flavor": "„Selbst die kleinste Welle erzählt eine lange Geschichte.\"",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148426&type=card",
+                    "language": "German",
+                    "multiverseid": 148426
+                },
+                {
+                    "name": "Leevientos aven",
+                    "text": "Vuela. (Esta criatura no puede ser bloqueada excepto por criaturas que tengan la habilidad de volar o alcance.)\n{1}{U}: El jugador objetivo muestra la primera carta de su biblioteca.",
+                    "type": "Criatura — Hechicero soldado ave",
+                    "flavor": "\"La ola más pequeña cuenta una historia de una profundidad de 10 brazas.\"",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150385&type=card",
+                    "language": "Spanish",
+                    "multiverseid": 150385
+                },
+                {
+                    "name": "Avemain déchiffre-vent",
+                    "text": "Vol (Cette créature ne peut être bloquée que par des créatures avec le vol ou la portée.)\n{1}{U} : Le joueur ciblé révèle la carte du dessus de sa bibliothèque.",
+                    "type": "Créature : oiseau et soldat et sorcier",
+                    "flavor": "« La plus petite des vaguelettes conte des histoires profondes de dix brasses. »",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150002&type=card",
+                    "language": "French",
+                    "multiverseid": 150002
+                },
+                {
+                    "name": "Scrutavento Aviano",
+                    "text": "Volare (Questa creatura non può essere bloccata tranne che da creature con volare o raggiungere.)\n{1}{U}: Un giocatore bersaglio rivela la prima carta del suo grimorio.",
+                    "type": "Creatura — Mago Uccello Soldato",
+                    "flavor": "\"La più piccola increspatura racconta una storia che si è svolta a dieci leghe di profondità.\"",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148809&type=card",
+                    "language": "Italian",
+                    "multiverseid": 148809
+                },
+                {
+                    "name": "エイヴンの風読み",
+                    "text": "飛行 （このクリーチャーは飛行や到達を持たないクリーチャーによってブロックされない。）\n{1}{U}：プレイヤー１人を対象とし、そのプレイヤーのライブラリーの一番上のカードを公開する。",
+                    "type": "クリーチャー — 鳥・兵士・ウィザード",
+                    "flavor": "水面のほんの小さな波紋が、深い水底で起こっていることを伝えてくれる。",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148043&type=card",
+                    "language": "Japanese",
+                    "multiverseid": 148043
+                },
+                {
+                    "name": "Leitor dos Ventos Aviano",
+                    "text": "Voar (Esta criatura só pode ser bloqueada por criaturas com a habilidade de voar ou alcance.)\n{1}{U}: O jogador alvo revela o card do topo de seu próprio grimório.",
+                    "type": "Criatura — Ave Soldado Mago",
+                    "flavor": "\"A menor ondulação na superfície conta uma história com dez braças de profundidade.\"",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149619&type=card",
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": 149619
+                },
+                {
+                    "name": "Предсказатель Ветров",
+                    "text": "Полет (Это существо может быть заблокировано только существом с Полетом или Захватом.)\n{1}{U}: Целевой игрок показывает верхнюю карту своей библиотеки.",
+                    "type": "Существо — Птица Солдат Чародей",
+                    "flavor": "\"Даже по самой легкой ряби можно догадаться о том, что творится на глубине\".",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149236&type=card",
+                    "language": "Russian",
+                    "multiverseid": 149236
+                },
+                {
+                    "name": "艾文风信师",
+                    "text": "飞行（只有具飞行或延势异能的生物才能阻挡它。）\n{1}{U}：目标牌手展示其牌库顶牌。",
+                    "type": "生物～鸟／士兵／法术师",
+                    "flavor": "「甚至连最微小的水纹都透露出十噚深的故事。」",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147660&type=card",
+                    "language": "Chinese Simplified",
+                    "multiverseid": 147660
+                }
+            ],
+            "printings": [
+                "10E",
+                "9ED",
+                "ODY",
+                "PSAL"
+            ],
+            "originalText": "Flying (This creature can't be blocked except by creatures with flying or reach.)\n{1}{U}: Target player reveals the top card of his or her library.",
+            "originalType": "Creature - Bird Soldier Wizard",
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Duel",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Modern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Pauper",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Paupercommander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Penny",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Predh",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Premodern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "d833c453-58c5-5ff6-91b2-f526ca5f808a"
+        },
+        {
+            "name": "Aven Windreader",
+            "manaCost": "{3}{U}{U}",
+            "cmc": 5.0,
+            "colors": [
+                "U"
+            ],
+            "colorIdentity": [
+                "U"
+            ],
+            "type": "Creature — Bird Soldier Wizard",
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Bird",
+                "Soldier",
+                "Wizard"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\n{1}{U}: Target player reveals the top card of their library.",
+            "flavor": "\"The tiniest ripple tells a story ten fathoms deep.\"",
+            "artist": "Greg Hildebrandt",
+            "number": "69★",
+            "power": "3",
+            "toughness": "3",
+            "layout": "normal",
+            "variations": [
+                "d833c453-58c5-5ff6-91b2-f526ca5f808a"
+            ],
+            "printings": [
+                "10E",
+                "9ED",
+                "ODY",
+                "PSAL"
+            ],
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Duel",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Modern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Pauper",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Paupercommander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Penny",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Predh",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Premodern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "e11ae348-44d1-5d45-bc5c-99a44d2acd5c"
+        },
+        {
+            "name": "Boomerang",
+            "manaCost": "{U}{U}",
+            "cmc": 2.0,
+            "colors": [
+                "U"
+            ],
+            "colorIdentity": [
+                "U"
+            ],
+            "type": "Instant",
+            "types": [
+                "Instant"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Return target permanent to its owner's hand.",
+            "flavor": "Early Jamuraan hunters devised a weapon that would return to its source. Tolarian Aethermancers developed a spell that skipped the weapon entirely.",
+            "artist": "Arnie Swekel",
+            "number": "70",
+            "layout": "normal",
+            "multiverseid": "129494",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129494&type=card",
+            "foreignNames": [
+                {
+                    "name": "Bumerang",
+                    "text": "Bringe eine bleibende Karte deiner Wahl auf die Hand ihres Besitzers zurück.",
+                    "type": "Spontanzauber",
+                    "flavor": "Vor langer Zeit entwickelten Jäger in Jamuraa eine Waffe, die zu ihrem Ursprung zurückkehren würde. Tolarianische Äthermagier entwickelten einen Zauberspruch, der ganz ohne die Waffe auskam.",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148441&type=card",
+                    "language": "German",
+                    "multiverseid": 148441
+                },
+                {
+                    "name": "Búmerang",
+                    "text": "Regresa el permanente objetivo a la mano de su propietario.",
+                    "type": "Instantáneo",
+                    "flavor": "Los cazadores primitivos de Jamuraa desarrollaron un arma que podía volver a su fuente. Los étermantes de Tolaria desarrollaron un hechizo que ignoraba por completo el arma.",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150386&type=card",
+                    "language": "Spanish",
+                    "multiverseid": 150386
+                },
+                {
+                    "name": "Boomerang",
+                    "text": "Renvoyez le permanent ciblé dans la main de son propriétaire.",
+                    "type": "Éphémère",
+                    "flavor": "Les premiers chasseurs jamuréens conçurent une arme qui reviendrait à sa source. Les Aethermanciens tolarians développèrent un sort pour se passer de l'arme.",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150003&type=card",
+                    "language": "French",
+                    "multiverseid": 150003
+                },
+                {
+                    "name": "Boomerang",
+                    "text": "Fai tornare un permanente bersaglio in mano al suo proprietario.",
+                    "type": "Istantaneo",
+                    "flavor": "Gli antichi cacciatori di Jamuraa inventarono un'arma che ritornava al punto di partenza. Gli Etermanti di Tolaria svilupparono una magia che evitava del tutto l'arma.",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148824&type=card",
+                    "language": "Italian",
+                    "multiverseid": 148824
+                },
+                {
+                    "name": "ブーメラン",
+                    "text": "パーマネント１つを対象とし、それをオーナーの手札に戻す。",
+                    "type": "インスタント",
+                    "flavor": "かつてのジャムーラの狩人は、手元に戻ってくる武器を作り出した。 トレイリアの霊気術士は、そもそも武器すら不要な呪文を生み出した。",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148058&type=card",
+                    "language": "Japanese",
+                    "multiverseid": 148058
+                },
+                {
+                    "name": "Bumerangue",
+                    "text": "Devolva a permanente alvo para a mão de seu dono.",
+                    "type": "Mágica Instantânea",
+                    "flavor": "Os antigos caçadores de Jamuraa criaram uma arma que retornaria ao ponto de partida. Os etermantes tolarianos desenvolveram uma mágica que omitia totalmente a arma.",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149620&type=card",
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": 149620
+                },
+                {
+                    "name": "Бумеранг",
+                    "text": "Верните целевой перманент в руку его владельца.",
+                    "type": "Мгновенное заклинание",
+                    "flavor": "Древние джамуранские охотники придумали оружие, которое возращалось к своему источнику. Толарианские эфироманты создали заклинание, полностью выполняющее роль такого оружия.",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149237&type=card",
+                    "language": "Russian",
+                    "multiverseid": 149237
+                },
+                {
+                    "name": "回力镖",
+                    "text": "将目标永久物移回其拥有者手上。",
+                    "type": "瞬间",
+                    "flavor": "早年的杰姆拉猎人发明了能回到手上的武器。 陶拉里亚乙太术士则跳过武器阶段，直接发展出这类咒语。",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147675&type=card",
+                    "language": "Chinese Simplified",
+                    "multiverseid": 147675
+                }
+            ],
+            "printings": [
+                "10E",
+                "5ED",
+                "6ED",
+                "7ED",
+                "8ED",
+                "9ED",
+                "BCHR",
+                "CHR",
+                "DPA",
+                "LEG",
+                "ME3",
+                "MIR",
+                "PDCI",
+                "PRM",
+                "PS11",
+                "PSAL"
+            ],
+            "originalText": "Return target permanent to its owner's hand.",
+            "originalType": "Instant",
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Duel",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Modern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Pauper",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Paupercommander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Penny",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Predh",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Premodern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "1aac00c8-3b6e-5bdd-9fde-6cfcbc7837c0"
+        },
+        {
+            "name": "Cancel",
+            "manaCost": "{1}{U}{U}",
+            "cmc": 3.0,
+            "colors": [
+                "U"
+            ],
+            "colorIdentity": [
+                "U"
+            ],
+            "type": "Instant",
+            "types": [
+                "Instant"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Counter target spell.",
+            "artist": "Mark Poole",
+            "number": "71",
+            "layout": "normal",
+            "multiverseid": "129882",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129882&type=card",
+            "foreignNames": [
+                {
+                    "name": "Abbrechen",
+                    "text": "Neutralisiere einen Zauberspruch deiner Wahl.",
+                    "type": "Spontanzauber",
+                    "flavor": null,
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148444&type=card",
+                    "language": "German",
+                    "multiverseid": 148444
+                },
+                {
+                    "name": "Deshacer",
+                    "text": "Contrarresta el hechizo objetivo.",
+                    "type": "Instantáneo",
+                    "flavor": null,
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150387&type=card",
+                    "language": "Spanish",
+                    "multiverseid": 150387
+                },
+                {
+                    "name": "Révocation",
+                    "text": "Contrecarrez le sort ciblé.",
+                    "type": "Éphémère",
+                    "flavor": null,
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150004&type=card",
+                    "language": "French",
+                    "multiverseid": 150004
+                },
+                {
+                    "name": "Eliminare",
+                    "text": "Neutralizza una magia bersaglio.",
+                    "type": "Istantaneo",
+                    "flavor": null,
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148827&type=card",
+                    "language": "Italian",
+                    "multiverseid": 148827
+                },
+                {
+                    "name": "取り消し",
+                    "text": "呪文１つを対象とし、それを打ち消す。",
+                    "type": "インスタント",
+                    "flavor": null,
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148061&type=card",
+                    "language": "Japanese",
+                    "multiverseid": 148061
+                },
+                {
+                    "name": "Cancelar",
+                    "text": "Anule a mágica alvo.",
+                    "type": "Mágica Instantânea",
+                    "flavor": null,
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149621&type=card",
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": 149621
+                },
+                {
+                    "name": "Отмена",
+                    "text": "Отмените целевое заклинание.",
+                    "type": "Мгновенное заклинание",
+                    "flavor": null,
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149238&type=card",
+                    "language": "Russian",
+                    "multiverseid": 149238
+                },
+                {
+                    "name": "取消",
+                    "text": "反击目标咒语。",
+                    "type": "瞬间",
+                    "flavor": null,
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147678&type=card",
+                    "language": "Chinese Simplified",
+                    "multiverseid": 147678
+                }
+            ],
+            "printings": [
+                "10E",
+                "AKH",
+                "ALA",
+                "DPA",
+                "KTK",
+                "M10",
+                "M11",
+                "M12",
+                "M14",
+                "M15",
+                "M19",
+                "M21",
+                "MB1",
+                "P10",
+                "PC2",
+                "PCA",
+                "PRM",
+                "PS11",
+                "RTR",
+                "TSP",
+                "XLN",
+                "ZEN"
+            ],
+            "originalText": "Counter target spell.",
+            "originalType": "Instant",
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Duel",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Explorer",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Gladiator",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Historic",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Historicbrawl",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Modern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Pauper",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Paupercommander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Penny",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Pioneer",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Predh",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "cdc96814-2f52-5314-80ab-0cff2dcc5054"
+        },
+        {
+            "name": "Cephalid Constable",
+            "manaCost": "{1}{U}{U}",
+            "cmc": 3.0,
+            "colors": [
+                "U"
+            ],
+            "colorIdentity": [
+                "U"
+            ],
+            "type": "Creature — Cephalid Wizard",
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Cephalid",
+                "Wizard"
+            ],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Whenever Cephalid Constable deals combat damage to a player, return up to that many target permanents that player controls to their owner's hand.",
+            "flavor": "Cephalids don't police people. They police loyalties.",
+            "artist": "Alan Pollack",
+            "number": "72",
+            "power": "1",
+            "toughness": "1",
+            "layout": "normal",
+            "multiverseid": "135261",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135261&type=card",
+            "foreignNames": [
+                {
+                    "name": "Zephaliden-Konstabler",
+                    "text": "Immer wenn der Zephaliden-Konstabler einem Spieler Kampfschaden zufügt, bringe bis zu dieser Anzahl bleibende Karten deiner Wahl, die dieser Spieler kontrolliert, auf die Hand ihrer Besitzer zurück.",
+                    "type": "Kreatur — Zephalid, Zauberer",
+                    "flavor": "Zephaliden überwachen nicht Einzelpersonen, sie überwachen Loyalitäten.",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148447&type=card",
+                    "language": "German",
+                    "multiverseid": 148447
+                },
+                {
+                    "name": "Agente cefálido",
+                    "text": "Siempre que el Agente cefálido haga daño de combate a un jugador, regresa hasta esa misma cantidad de permanentes objetivo que controla ese jugador a las manos de sus propietarios.",
+                    "type": "Criatura — Hechicero cefálido",
+                    "flavor": "Los cefálidos no vigilan personas. Vigilan lealtades.",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150388&type=card",
+                    "language": "Spanish",
+                    "multiverseid": 150388
+                },
+                {
+                    "name": "Constable céphalide",
+                    "text": "À chaque fois que le Constable céphalide inflige des blessures de combat à un joueur, renvoyez dans les mains de leurs propriétaires jusqu'à ce nombre de permanents ciblés que ce joueur contrôle.",
+                    "type": "Créature : céphalide et sorcier",
+                    "flavor": "Les céphalides ne régentent pas le peuple. Ils régentent les loyautés.",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150005&type=card",
+                    "language": "French",
+                    "multiverseid": 150005
+                },
+                {
+                    "name": "Connestabile Cefalide",
+                    "text": "Ogniqualvolta il Connestabile Cefalide infligge danno da combattimento a un giocatore, fai tornare fino ad altrettanti permanenti bersaglio controllati da quel giocatore in mano ai loro proprietari.",
+                    "type": "Creatura — Mago Cefalide",
+                    "flavor": "I cefalidi non proteggono le persone. Proteggono la fedeltà.",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148830&type=card",
+                    "language": "Italian",
+                    "multiverseid": 148830
+                },
+                {
+                    "name": "セファリッドの警官",
+                    "text": "セファリッドの警官がいずれかのプレイヤーに戦闘ダメージを与えるたび、そのプレイヤーがコントロールするパーマネントを、最大その点数に等しい個数まで対象とし、それらをオーナーの手札に戻す。",
+                    "type": "クリーチャー — セファリッド・ウィザード",
+                    "flavor": "セファリッドは人々の治安を取り締まっているのではない。 忠誠を取り締まっているのだ。",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148064&type=card",
+                    "language": "Japanese",
+                    "multiverseid": 148064
+                },
+                {
+                    "name": "Policial Cefálida",
+                    "text": "Toda vez que Policial Cefálida causar dano de combate a um jogador, devolva aquela quantidade de permanentes alvo que aquele jogador controla para as mãos dos seus donos.",
+                    "type": "Criatura — Cefálida Mago",
+                    "flavor": "Os cefálidas não policiam as pessoas. Eles policiam lealdades.",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149622&type=card",
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": 149622
+                },
+                {
+                    "name": "Цефалид-Дружинник",
+                    "text": "Каждый раз, когда Цефалид-Дружинник наносит боевые повреждения игроку, верните до такого же количества целевых перманентов под контролем того игрока в руки их владельцев.",
+                    "type": "Существо — Цефалид Чародей",
+                    "flavor": "Цефалиды охраняют не людей. Они охраняют их преданность.",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149239&type=card",
+                    "language": "Russian",
+                    "multiverseid": 149239
+                },
+                {
+                    "name": "章人保安官",
+                    "text": "每当章人保安官对某牌手造成战斗伤害时，将至多此数量由该牌手操控的目标永久物移回其拥有者手上。",
+                    "type": "生物～章人／法术师",
+                    "flavor": "章人不管理人的治安。 他们要管的是忠诚问题。",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147681&type=card",
+                    "language": "Chinese Simplified",
+                    "multiverseid": 147681
+                }
+            ],
+            "printings": [
+                "10E",
+                "JUD",
+                "PSAL"
+            ],
+            "originalText": "Whenever Cephalid Constable deals combat damage to a player, return up to that many target permanents that player controls to their owners' hands.",
+            "originalType": "Creature - Cephalid Wizard",
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Duel",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Modern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Penny",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Predh",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Premodern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "9af574e4-dc6e-5246-8fe7-fee6c4c77a76"
+        },
+        {
+            "name": "Clone",
+            "manaCost": "{3}{U}",
+            "cmc": 4.0,
+            "colors": [
+                "U"
+            ],
+            "colorIdentity": [
+                "U"
+            ],
+            "type": "Creature — Shapeshifter",
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Shapeshifter"
+            ],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "You may have Clone enter the battlefield as a copy of any creature on the battlefield.",
+            "artist": "Kev Walker",
+            "number": "73",
+            "power": "0",
+            "toughness": "0",
+            "layout": "normal",
+            "multiverseid": "129501",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129501&type=card",
+            "rulings": [
+                {
+                    "date": "2007-07-15",
+                    "text": "If the chosen creature is copying something else (for example, if the chosen creature is another Clone), then your Clone enters the battlefield as whatever the chosen creature copied."
+                },
+                {
+                    "date": "2007-07-15",
+                    "text": "If the chosen creature is a token, Clone copies the original characteristics of that token as stated by the effect that put it onto the battlefield. Clone is not a token."
+                },
+                {
+                    "date": "2007-07-15",
+                    "text": "Any enters-the-battlefield abilities of the copied creature will trigger when Clone enters the battlefield. Any “as [this creature] enters the battlefield” or “[this creature] enters the battlefield with” abilities of the chosen creature will also work."
+                },
+                {
+                    "date": "2009-10-01",
+                    "text": "If the chosen creature has {X} in its mana cost (such as Protean Hydra), X is considered to be zero."
+                },
+                {
+                    "date": "2012-07-01",
+                    "text": "Clone copies exactly what was printed on the original creature and nothing more (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on."
+                },
+                {
+                    "date": "2012-07-01",
+                    "text": "If Clone somehow enters the battlefield at the same time as another creature, Clone can't become a copy of that creature. You may choose only a creature that's already on the battlefield."
+                },
+                {
+                    "date": "2012-07-01",
+                    "text": "You can choose not to copy anything. In that case, Clone enters the battlefield as a 0/0 Shapeshifter creature, and is probably put into the graveyard immediately."
+                },
+                {
+                    "date": "2013-07-01",
+                    "text": "Clone's ability doesn't target the chosen creature."
+                }
+            ],
+            "foreignNames": [
+                {
+                    "name": "Klon",
+                    "text": "Sowie der Klon ins Spiel kommt, kannst du eine Kreatur im Spiel bestimmen. Falls du dies tust, kommt der Klon als eine Kopie dieser Kreatur ins Spiel.",
+                    "type": "Kreatur — Gestaltwandler",
+                    "flavor": null,
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148453&type=card",
+                    "language": "German",
+                    "multiverseid": 148453
+                },
+                {
+                    "name": "Clon",
+                    "text": "En cuanto el Clon entre en juego, puedes elegir una criatura en juego. Si lo haces, el Clon entra en juego como una copia de esa criatura.",
+                    "type": "Criatura — Metamorfo",
+                    "flavor": null,
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150389&type=card",
+                    "language": "Spanish",
+                    "multiverseid": 150389
+                },
+                {
+                    "name": "Clone",
+                    "text": "Au moment où le Clone arrive en jeu, vous pouvez choisir une créature en jeu. Si vous faites ainsi, le Clone arrive en jeu comme une copie de cette créature.",
+                    "type": "Créature : changeforme",
+                    "flavor": null,
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150006&type=card",
+                    "language": "French",
+                    "multiverseid": 150006
+                },
+                {
+                    "name": "Clone",
+                    "text": "Mentre il Clone entra in gioco, puoi scegliere una creatura in gioco. Se lo fai, il Clone entra in gioco come copia di quella creatura.",
+                    "type": "Creatura — Polimorfo",
+                    "flavor": null,
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148836&type=card",
+                    "language": "Italian",
+                    "multiverseid": 148836
+                },
+                {
+                    "name": "クローン",
+                    "text": "クローンが場に出るに際し、あなたは場に出ているクリーチャー１体を選んでもよい。 そうした場合、クローンはそのクリーチャーのコピーとして場に出る。",
+                    "type": "クリーチャー — 多相の戦士",
+                    "flavor": null,
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148070&type=card",
+                    "language": "Japanese",
+                    "multiverseid": 148070
+                },
+                {
+                    "name": "Clone",
+                    "text": "Conforme Clone entra em jogo, você pode escolher uma criatura em jogo. Se o fizer, Clone entra em jogo como uma cópia daquela criatura.",
+                    "type": "Criatura — Metamorfo",
+                    "flavor": null,
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149623&type=card",
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": 149623
+                },
+                {
+                    "name": "Клон",
+                    "text": "При входе Клона в игру вы можете выбрать существо в игре. Если вы это делаете, Клон входит в игру как копия того существа.",
+                    "type": "Существо — Имитатор",
+                    "flavor": null,
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149240&type=card",
+                    "language": "Russian",
+                    "multiverseid": 149240
+                },
+                {
+                    "name": "仿生妖",
+                    "text": "于仿生妖进场时，你可以选择场上的一个生物。 若你如此作，则仿生妖进场时为该生物的复制。",
+                    "type": "生物～变形兽",
+                    "flavor": null,
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147687&type=card",
+                    "language": "Chinese Simplified",
+                    "multiverseid": 147687
+                }
+            ],
+            "printings": [
+                "10E",
+                "2ED",
+                "30A",
+                "3ED",
+                "9ED",
+                "CED",
+                "CEI",
+                "DDI",
+                "FBB",
+                "LEA",
+                "LEB",
+                "M10",
+                "M11",
+                "M13",
+                "M14",
+                "ONS",
+                "SUM"
+            ],
+            "originalText": "As Clone comes into play, you may choose a creature in play. If you do, Clone comes into play as a copy of that creature.",
+            "originalType": "Creature - Shapeshifter",
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Duel",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Modern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Paupercommander",
+                    "legality": "Restricted"
+                },
+                {
+                    "format": "Penny",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Pioneer",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Predh",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Premodern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "8dfc67e9-8323-5d1f-9e25-9f9394abd5a0"
+        }
+    ]
+}
