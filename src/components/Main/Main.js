@@ -77,7 +77,7 @@ const Main = () => {
                 <button className='submit' onClick={jumpTo}>Go</button>
             </form>
             {error && (
-                <p>{input} is not a vaild page number. Please enter a valid page number between 1 and 787.</p>
+                <p>{input || 'Nothing'} is not a vaild page number. Please enter a valid page number between 1 and 787.</p>
             )}
             <div className='page-cntrl'>
                 <p>Page Number: {number}</p>
