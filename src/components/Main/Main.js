@@ -1,7 +1,7 @@
-import { fetchAll } from '../../apiCalls';
+import { fetchAll } from '../../apiCalls'
 import './Main.css'
-import React, { useState, useEffect } from 'react';
-import Card from '../Card/Card';
+import React, { useState, useEffect } from 'react'
+import Card from '../Card/Card'
 
 
 const Main = () => {
