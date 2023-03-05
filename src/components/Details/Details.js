@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom"
 import { useEffect, useState } from "react"
 import { fetchCard } from "../../apiCalls"
 import loadingGif from '../../Assets/loading-gif2.gif'
-import noImage from '../../Assets/no-image.gif'
+import noImage from '../../Assets/no-image2.gif'
 
 const Details = ({ addToDeck }) => {
     const location = useLocation()
