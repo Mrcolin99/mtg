@@ -11,16 +11,27 @@ import {
 } from 'react-router-dom'
 
 const App = () => {
-  const [deck, setDeck] = useState([]);
+  const [deck, setDeck] = useState([])
+
+
+  window.addEventListener('load', () => {
+    if (localStorage.getItem('deck')) {
+      setDeck(JSON.parse(localStorage.getItem('deck')))
+    }
+  })
+
+  window.addEventListener('beforeunload', () => {
+    localStorage.setItem('deck', JSON.stringify(deck))
+  })
 
   const addToDeck = (card) => {
-    console.log(deck)
-    setDeck([...deck, card]);
+    setDeck([...deck, card])
   }
 
   const removeFromDeck = (id) => {
-    setDeck(deck.filter((card) => card.id !== id));
+    setDeck(deck.filter((card) => card.id !== id))
   }
+
   return (
     <div className='main-div'>
       <Router>
