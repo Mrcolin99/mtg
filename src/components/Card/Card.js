@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import './Card.css'
+import noImage from "../../Assets/no-image2.gif"
 
 const Card = ({ img, id, name }) => {
     return (
@@ -9,12 +10,13 @@ const Card = ({ img, id, name }) => {
             </Link>
             :
             <div className='no-image'>
-                <h2 id={id}>No Image Available For {name}</h2>
                 <Link to={`/details/${id}`} state={{ id: id }}>
+                    <img className='no-image-gif' src={noImage} />
                     <p className='no-img-link'>Click For More</p>
                 </Link>
+                <p>{name}</p>
             </div>
-  )
+    )
 
 }
 
